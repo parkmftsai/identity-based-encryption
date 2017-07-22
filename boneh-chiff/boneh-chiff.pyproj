@@ -28,7 +28,13 @@
     <Compile Include="ellipticCurveMod.py" />
     <Compile Include="finiteField.py" />
     <Compile Include="modular.py" />
+    <Compile Include="MillerAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="polynomial.py" />
+    <Compile Include="WeilPairing.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

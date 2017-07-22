@@ -11,11 +11,11 @@ import ellipticCurveMod
 import ellipticCurve
 import finiteField
 import polynomial
-
+import WeilPairing
 #if we want to work of fields different than Z/pZ
 FiniteField = finiteField.FiniteField
 Polynomial = polynomial.Polynomial
-ModifWeil = ellipticCurve.ModifWeilPairing
+ModifWeil = WeilPairing.ModifWeilPairing
 EllipticCurve2=ellipticCurve.EllipticCurve
 Point2=ellipticCurve.Point
 
@@ -307,3 +307,4 @@ if __name__=='__main__':
 
     #close file
     outputFile.close()
+    os.system('pause')
