@@ -1,0 +1,10 @@
+If you are going to change the parameters in the encrypting file, you need to adapt some parameters in the decryption file
+You will always need to adapt the coordinates of DID and you need to copy the last output line of this file to properly decrypt
+-------------------------------
+The prime number l is: 56453
+The prime number p is: 338717
+Third root of unit is: 0 (mod 338717) + 1 (mod 338717) x^1 over F_{338717^2}
+DID is equal to: (121784 (mod 338717),53399 (mod 338717))
+First value of the cyphertext: (240099 (mod 338717),283222 (mod 338717))
+Second value of the cyphertext: bytearray(b']\x1b\x11_Q]T\x10YC\x10APBZEBQX')
+This is a hex representation of the encrypted message. This hex-code needs to be entered to the decryption script: 5d1b115f515d54105943104150425a45425158
